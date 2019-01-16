@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
-        <head>
-                <title>index</title>
-                <link rel="stylesheet" href="styles.css">
-		<meta charset="UTF-8">
-        </head>
-        <body class="index">
-		<ul>
-			<li><a href="scratch_00.html">Home</a></li>
+	<head>
+        	<title>home</title>
+		<link rel="stylesheet" href="styles.css">
+    	</head>
+    	<body>
+		<div class="header">
+			<img src="Scratch_to_Python_teksti.png" alt="Kuva Scratch_to_Python_tekstistä" height="50%" width="50%">
+		</div>
+		<div class="navbar">
+  			<a href="index.html" class="active">Home</a>
+  			<a href="scratch_01.html" class="active">Editori</a>
+  			<a href="scratch_02.html" class="active">Palikat</a>
+   			<a href="scratch_03.html" class="active">Lause</a>
+   			<a href="scratch_04.html" class="active">Haasteet</a>
+  			<a href="scratch_05.html" class="active">Silmukka</a>
+  			<a href="scratch_06.html" class="active">Haasteet</a>
+  			<a href="scratch_07.html" class="active">Ehtolause</a>
+  			<a href="scratch_08.html" class="active">Haasteet</a>
+  			<a href="scratch_09.html" class="active">Muuttuja</a>
+  			<a href="scratch_10.html" class="active">Haasteet</a>
+  			<a href="scratch_11.html" class="active">Lista</a>
+	  		<a href="scratch_12.html" class="active">Haasteet</a>
+		</div>
+		<div class="row">
+		<div class="side index">
 			<ul>
-				<li><a href="scratch_00.html#johdanto">Johdanto</a></li>
-				<li><a href="scratch_00.html#pelaajaoppiminen">Pelaajaoppiminen</a></li>
+			<li><a href="index.html">Home</a></li>
+			<ul>
+				<li><a href="index.html#johdanto">Johdanto</a></li>
+				<li><a href="index.html#pelaajaoppiminen">Pelaajaoppiminen</a></li>
 			</ul>
 			<li><a href="scratch_01.html">Koodieditorin alueet</a></li>
 			<ul>
@@ -177,7 +196,57 @@
 					<li><a href="scratch_12.html#video_14">Video ratkaistusta Scratch_to_Python_14-haasteeseen</a></li>
 				</ul>
 			</ul>
-
 		</ul>
+		</div>
+		<div class="main">
+    	    	<h2 id="johdanto">Johdanto</h2>
+    	    		<p>Tervetuloa oppimaan ohjelmointia Scratch:llä. Tämä kurssi jakautuu viiteen osaan: Lause, Silmukka, Ehtolause, Muuttuja ja Lista. Jokaisessa osassa on teoriaosuus ja haasteita, joilla voit kokeilla osaamistasi ja harjoitella ohjelmointitaitoja. Haasteissa on tehtäviä, joissa käytetään pelaajaoppimisen metodia. Se on haastava, mutta tehokas tapa oppia ohjelmointia.</p>
+	    		<p>Tämän materiaalin rinnalla kulkee koko ajan Python-materiaalit. Voit tehdä kaikki tehtävät joko pelkästään Scratch-ympäristössä, Python-ympäristössä tai sitten näitä kahta luovasti yhdistellen. Tehtävät ovat siis aivan tai lähes vastaavia. Scratch-tehtävät on nimetty Scratch_to_Python_XX vastaava Python-tehtävä olisi Python_from_Scratch_XX. Voit siis myös opiskella niitä yhtä aikaa.</p>
+    	    		<p>Saat ensiksi tietää, mitä pelaajaoppiminen tarkoittaa ja kuinka se auttaa sinua oppimaan ohjelmointitaitoja tehokkaasti.</p>
+    	    	<h2 id="pelaajaoppiminen">Pelaajaoppiminen</h2>
+    	    		<p>Pelaajaoppiminen ei tarkoita oppimista pelaamalla peliä, vaan sitä tapaa, jolla pelaaja saattaa oppia uuden pelin uudessa ympäristössä. Pelaaja yrittää pelata peliä ilman ohjeita ja saattaa epäonnistua monta kertaa. Nämä epäonnistumiset ovat tärkeitä ja ne auttavat pelaajaa oppimaan pelaamaan peliä vähitellen. Virheiden tekeminen kehittää ratkaisumalleja. Jos pelaaja jää jumiin, hän pyytää apua online-foorumeilla. Ennen tai jälkeen sitä hän on saattanut jo pyytää apua ystävältä tai kolleegalta. Kun pelaaja on löytänyt ratkaisun, hän voi jakaa sen muille. Tämä on hyvin lähellä sitä, kuinka monet ohjelmoijat ovat oppineet ohjelmointia ja kuinka he työskentelevät joka päivä.</p>
+			<p>Tässä ovat pelaajaoppimisen periaatteet jaettuina seitsemäksi kohdaksi, ja kuinka ne toteutuvat tämän kurssin haasteissa.</p>
+    	    		<ol>
+      				<li>Ongelma ilman ratkaisua</li>
+    					<ul>
+      						<li>Haasteissa voi olla hyvin vähän tai ei ollenkaan ohjeita. Ne saattavat vain näyttää odotetun lopputuloksen.</li>
+    						<li>Haasteet mittaavat paitsi ohjelmointitaitoja, myös ongelmanratkaisukykyjä. </li>
+    						<li>Turhautuminen ja ärsyyntyminen taistellessa vaikean tehtävän kanssa ovat olennainen osa oppimisen prosessia.</li>
+    						<li>Ei ole olemassa yhtä ainoaa oikeaa ratkaisua, vaan niitä voi olla useita, toinen toistaan parempia.</li>
+    					</ul>
+      				<li>Ratkaisu voidaan löytää ilman ohjeita</li>
+    					<ul>
+      						<li>On tärkeää kokeilla erilaisia ratkaisuja ja tehdä koodista koko ajan parempaa.</li>
+    					</ul>
+    	  			<li>Virheet opettavat</li>
+    					<ul>
+      						<li>Yrityksen ja erehdyksen kautta oivallukseen.</li>
+    						<li>Virheiden etsiminen ja niiden ratkaiseminen saa aikaan syvällistä oppimista.</li>
+    					</ul>
+    	  			<li>Virheitä tehdessä kehittyy ratkaisumalleja</li>
+    					<ul>
+      						<li>Ongelmanratkaisukyvyt kehittyvät.</li>
+    						<li>Ratkaisumallit tekevät uusien ongelmien ratkaisemisesta helpompaa.</li>
+    					</ul>
+    	  			<li>Avun hakeminen online-foorumeista</li>
+    					<ul>
+      						<li>Ohjelmoijat käyttävät online-foorumeita kuten Stack Overflow auttamaan löytämään ratkaisuja ohjelmointiongelmissa.</li>
+    					</ul>
+    	  			<li>Apua ystäviltä</li>
+    					<ul>
+      						<li>Aina voi pyytää apua kolleegoilta ja muilta oppijoilta.</li>
+    						<li>Nykypäivänä ohjelmointi on hyvin pitkälle asiantuntijoiden välistä yhteistyötä.</li>
+    					</ul>
+    				<li>Ratkaisun jakaminen muiden kanssa</li>
+    					<ul>
+      						<li>Monet ohjelmoijat jakavat koodinsa GitHub:ssa ja muissa vastaavissa sivustoissa.</li>
+    						<li>Scratch-verkkosivustolla osoitteessa scratch.mit.edu on yli 30 miljoonaa projektia jaettuina.</li>
+    					</ul>
+    			</ol>
+		</div>
+		</div>
+		<div class="footer">
+                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons -lisenssi" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Tämä teos, jonka tekijä on <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Tero Toivanen</span>, on lisensoitu <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Nimeä 4.0 Kansainvälinen  -lisenssillä</a>.
+                </div>
 	</body>
 </html>
